@@ -5,7 +5,7 @@ library(permute)
 library(lattice)
 ##polinizadores composition
 pol <- read.table(file.choose(), header = TRUE)
-head(pol) # base de datos pol
+head(pol) # base de datos polinizadores_Composición
 
 amb<- read.table(file.choose(), header = TRUE)
 head(amb) # vamb
